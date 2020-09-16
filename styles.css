@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-	background: url("Logo.jpg");
+	background: url("/img/logo.jpg");
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
