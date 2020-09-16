@@ -257,3 +257,14 @@ select::-ms-expand {
 	color: #000;
 	text-shadow: 0 0 5px #1eb494;
 }
+.table {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.table a {
+	text-decoration: none;
+	color: #1eb494;
+}
+.table :hover {
+	color: orangered;
+}
