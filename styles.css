@@ -258,13 +258,26 @@ select::-ms-expand {
 	text-shadow: 0 0 5px #1eb494;
 }
 .table {
+	margin: auto;
+	padding-top: 16px;
 	margin-top: 20px;
-	margin-left: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+
+	text-align: center;
+	background: #24cfaa;
+	box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+	transition: 0.5s;
 }
+
 .table a {
 	text-decoration: none;
-	color: #1eb494;
-}
-.table :hover {
-	color: orangered;
+	color: #ffff;
 }
